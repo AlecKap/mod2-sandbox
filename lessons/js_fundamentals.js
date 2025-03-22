@@ -50,16 +50,16 @@ function identifyCookie(cookie) {
   }
 }
 
-// identifyCookie("chocolate chip")
+identifyCookie("chocolate chip")
 // identifyCookie("oatmeal raisin")
 // identifyCookie("sugar")
 
 function evaluateSleep(hoursOfSleep) {  
-
+  console.log("I slept " + hoursOfSleep + " hours last night.")
 }
 
-// evaluateSleep(8)
-// evaluateSleep(4)
+evaluateSleep(8)
+evaluateSleep(4)
 
 
 
